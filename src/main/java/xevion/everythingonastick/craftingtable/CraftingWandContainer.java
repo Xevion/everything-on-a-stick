@@ -6,7 +6,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 
 public class CraftingWandContainer extends CraftingTableContainer {
-    public CraftingWandContainer(int sync_id, PlayerInventory player_inventory, BlockContext block_context) {
+    CraftingWandContainer(int sync_id, PlayerInventory player_inventory, BlockContext block_context) {
         super(sync_id, player_inventory, block_context);
     }
 
